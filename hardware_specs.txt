@@ -1,0 +1,6 @@
+•	Computer Type: Lenovo ThinkPad X1 Yoga
+•	CPU: Intel Core i5 vPro 8th Gen 8350U CPU @ 1.70GHz (1.90 GHz)
+•	Memory: 16 GB
+•	OS: Windows 11 25H2
+•	HD: 930GB (1TB)
+•	Display Resolution: 1920*1080
