@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Pizza Cost Calculator</h1>
+    </head>
+    <body>
+    <p>How many <b>pizzas</b> do you want?</p>
+    <input id ="choice" type="number">
+    <p>How much does each <b>pizza</b> <i>cost</i>?</p>
+    <input id ="cost" type="number">
+    <p><button onclick="calculateTotal()">Calculate Total</button>  
+  </p>
+    <p id="result"></p>
+    </body>
+    <script>      function calculateTotal() {
+        var choice = document.getElementById("choice").value;
+        var cost = document.getElementById("cost").value;
+        var total = choice * cost;
+        document.getElementById("result").innerHTML = "The total cost is: $" + total;
+    }</script>
+<style>
+    body {
+        font-family: Arial;
+        background-color: beige;
+    }
+    h1 {
+        font-family: 'Segoe UI', Tahoma;
+        color: Blue;
+    }
+button {
+        padding: 10px 20px;
+        background-color: green;
+        color: black;
+    }
+    button:hover {
+        background-color: white;
+    }
+    </style>
+</html>
